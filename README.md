@@ -1,9 +1,9 @@
 # riesgo_cardio_python_trial
 # Evaluación de Riesgo Cardiovascular en Python 
 
-Este proyecto es un ejercicio de programación funcional creado como parte de mi transición profesional desde la medicina clínica hacia medicina informatica
+Este proyecto es un ejercicio de programación funcional creado como parte de mi transición profesional desde la medicina clínica hacia la informática médica y la inteligencia artificial aplicada a la salud.
 
-Permite ingresar datos antropométricos y de presión arterial para calcular el riesgo cardiovascular general de una persona, con validación de entradas y categorización médica básica.
+Permite ingresar datos antropométricos y de presión arterial para calcular un estimado de riesgo cardiovascular general, con validación de entradas y categorización médica básica.
 
 ## ¿Qué hace este programa?
 
@@ -14,22 +14,21 @@ Permite ingresar datos antropométricos y de presión arterial para calcular el 
 - Valida que los datos sean numéricos y positivos
 - Presenta los resultados de manera organizada
 
-##  Lógica médica utilizada
+## Lógica médica utilizada
 
-- IMC: categorización estándar (bajo peso, normal, sobrepeso, obesidad)
-- Tensión arterial: controlada si <140/90
-- Riesgo alto si hay TA no controlada **y** sobrepeso/obesidad
-- Riesgo bajo si hay TA controlada **y** IMC normal o bajo
-- Todo lo demás es riesgo moderado
+- **IMC**: categorización estándar (bajo peso, normal, sobrepeso, obesidad)
+- **Presión arterial**: controlada si <140/90 mmHg
+- **Riesgo alto**: TA no controlada **y** sobrepeso/obesidad
+- **Riesgo bajo**: TA controlada **y** IMC normal o bajo
+- Todo lo demás: **riesgo moderado**
 
-##  Disclaimer clínico
+## Disclaimer clínico
 
 Este proyecto es exclusivamente educativo.  
-No está validado para uso diagnóstico ni clínico.  
+No ha sido validado para uso diagnóstico ni clínico.  
 No reemplaza el juicio profesional ni el seguimiento médico.
 
-## 🧠 Sobre mí
+## Sobre mí
 
-Soy un médico colombiano en proceso de transición hacia un doctorado en biociencias con énfasis en inteligencia artificial.  
-Este repositorio es parte de mi portafolio público de aprendizaje práctico en programación.
-
+Soy médico colombiano en transición hacia la informática médica y la inteligencia artificial aplicada a la salud.  
+Este repositorio forma parte de mi portafolio público de aprendizaje práctico en programación.
